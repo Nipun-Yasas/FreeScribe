@@ -6,7 +6,7 @@ export default function Header() {
           <h1 className='font-medium'>Free
             <span className='text-blue-400 bold'>Scribe</span>
           </h1>
-          <button className='specialBtn flex items-center gap-2 px-3 p-2 rounded-lg'>
+          <button className='specialBtn flex items-center gap-2 px-3 text-sm p-2 rounded-lg'>
             <p>New</p>
             <i className='fa-solid fa-plus'></i>
           </button>
