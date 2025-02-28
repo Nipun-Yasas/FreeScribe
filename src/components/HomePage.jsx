@@ -89,7 +89,7 @@ export default function HomePage(props) {
             <p className='text-blue-400'>{recordingStatus==='inactive' ?
             'Record' : `Stop recording`}</p>
             <div className='flex items-center gap-2'>
-              {duration && (<p className='text-sm'>{duration} sec</p>)}
+              {/* {duration && (<p className='text-sm'>{duration} sec</p>)} */}
               </div>
             <i className={"fa-solid duration-200 fa-microphone" + (recordingStatus==='recording' ? 'text-rose-300':"" )}></i>
         </button>
